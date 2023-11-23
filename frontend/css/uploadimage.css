@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  overflow: hidden;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: rgb(0, 0, 0, 0.881);
+}
+.input-wrapper {
+  background-color: grey;
+  padding: 90px 90px;
+  border-radius: 10px;
+  border-top-right-radius: 100px;
+  box-shadow: 0px 8px 8px rgba(20, 20, 20, 0.9);
+}
+a > button {
+  padding: 5px 5px;
+  border-radius: 4px;
+  border: none;
+  box-shadow: 0px 1px 3px rgb(0, 0, 0, 0.881);
+  cursor: pointer;
+  position: relative;
+  left: 80px;
+  top: 50px;
+  display: none;
+}
+input {
+  display: none;
+}
+
+.icon {
+  display: flex;
+  justify-content: center;
+  cursor: pointer;
+}
+.icon i {
+  font-size: 80px;
+  box-shadow: 0px 2px 4px rgba(0.3, 0.3, 0.8, 0.7);
+}
+p {
+  padding-top: 10px;
+  font-size: 1.2rem;
+}
